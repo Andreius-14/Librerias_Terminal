@@ -41,7 +41,7 @@ crea archivo en Root .env
 
 Llamar
 
-conrtenido de archivo
+--------conrtenido de archivo-----------
 S3_BUCKET="YOURS3BUCKET"
 SECRET_KEY="YOURSECRETKEYGOESHERE"
 DB_HOST=localhost
