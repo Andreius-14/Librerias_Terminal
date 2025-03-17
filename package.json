@@ -1,27 +1,29 @@
 {
-    "name": "Libreria_JSTerminal",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "packageManager": "pnpm@10.5.2",
-    "devDependencies": {
-        "standard": "^17.1.2"
-    },
-    "type": "module",
-    "eslintConfig": {
-        "extends": "standard"
-    },
-    "dependencies": {
-        "@inquirer/prompts": "^7.4.0",
-        "chalk": "^5.4.1",
-        "clipboardy": "^4.0.0",
-        "dotenv": "^16.4.7",
-        "update-notifier": "^7.3.1"
-    }
+  "name": "libreria_jsterminal",
+  "version": "1.0.0",
+  "main": "Libreria-Chalk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andreius-14/Libreria_JSTerminal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andreius-14/Libreria_JSTerminal/issues"
+  },
+  "homepage": "https://github.com/Andreius-14/Libreria_JSTerminal#readme",
+  "description": "",
+  "type": "module",
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.5.0"
+  }
 }
