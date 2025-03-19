@@ -1,50 +1,45 @@
-import "dotenv/config";
-
 /*
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃              BASICO                   ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-*/
-console.log(process.env.DB_USER);
-
-/*
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃            OPTIMIZADO                 ┃
+┃          LIMPIA TERMINAL              ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 */
 
-const log = console.log;
-const env = process.env;
-log(env.DB_USER);
-log(env.S3_BUCKET);
-log(env.SECRET_KEY);
-log(env.DB_HOST);
-log(env.DB_USER);
-log(env.DB_PASSWORD);
+console.log("HolaMundo");
 
-/*
-S3_BUCKET="YOURS3BUCKET"
-SECRET_KEY="YOURSECRETKEYGOESHERE"
-DB_HOST=localhost
-DB_USER=admin
-DB_PASSWORD=password
+console.clear();
 
-*/
+console.log("Nuevo");
 
 /*
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃               NOTAS                   ┃
+┃           IMPRIME TABLA               ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-Descargar Paquete
-
-crea archivo en Root .env
-
-Llamar
-
---------conrtenido de archivo-----------
-S3_BUCKET="YOURS3BUCKET"
-SECRET_KEY="YOURSECRETKEYGOESHERE"
-DB_HOST=localhost
-DB_USER=admin
-DB_PASSWORD=password
 */
+
+const arrayDatos = [
+  { id: 1, nombre: "Alice", edad: 25 },
+  { id: 2, nombre: "Bob", edad: 30 },
+  { id: 3, nombre: "Charlie", edad: 28 },
+];
+
+console.table(arrayDatos);
+console.table(arrayDatos, ["nombre", "edad"]);
+
+const usuario = {
+  nombre: "Alice",
+  edad: 25,
+  ciudad: "Madrid",
+};
+
+console.table(usuario);
+
+/*
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃               MENSAJE                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+*/
+console.error("Hola Error");
+console.info("Hola Info");
+
+console.log("Hola Mundo");
+console.warn("Hola Peligro");

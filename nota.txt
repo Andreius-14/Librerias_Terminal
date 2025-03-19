@@ -1,0 +1,10 @@
++----------------+-------------------------------+-------------------------------------------+
+| Nativo         | Módulo externo famoso         | Propósito principal                       |
++----------------+-------------------------------+-------------------------------------------+
+| process        | chalk                         | Colores y estilos en salida               |
+| process.argv   | commander / yargs             | Parsing avanzado de argumentos            |
+| console        | winston / pino                | Logging avanzado                          |
+| tty            | blessed / neo-blessed         | Interfaces gráficas en terminal (TUI)     |
+| tty            | terminal-kit                  | Control de terminal con abstracción       |
+| readline       | inquirer                      | Prompts interactivos avanzados            |
++----------------+-------------------------------+-------------------------------------------+
