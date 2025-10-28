@@ -1,0 +1,10 @@
+Prioridad	Funcionalidad   	Descripción
+🌱Alta	    Panel	            Usa console.print() con colores y estilos, y crea paneles para resaltar contenido.
+🌱Alta	    Tablas              Crea y personaliza tablas para mostrar datos estructurados.
+🌱Media	    Text	            Usa la clase Text para crear texto con estilos avanzados.
+🌱Media	    Markdown	        Renderiza texto en formato Markdown.
+  Media	    BarProgress	        Crea barras de progreso para tareas largas.
+🌱Media-Baja	Layouts	            Organiza contenido en la terminal usando Layout.
+  Baja    	JSON	            Renderiza datos JSON de manera formateada.
+  Baja    	Temas y estilos     Define y usa temas globales para mantener la consistencia visual.
+  Baja    	Widgets avanzados   Explora widgets como Tree, Syntax, Live, etc.
